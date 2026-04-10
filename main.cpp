@@ -6,9 +6,9 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    app.setApplicationName("IP Camera Simulator");
+    app.setApplicationName("SimCam");
     app.setApplicationVersion("1.0.0");
-    app.setOrganizationName("VISNET AI");
+    app.setOrganizationName("govardhanchitrada");
 
     // Use the Fusion style for consistent cross-platform look
     app.setStyle("Fusion");

@@ -43,7 +43,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    setWindowTitle("IP Camera Simulator  •  ONVIF / RTSP");
+    setWindowTitle("SimCam •  ONVIF / RTSP");
     setMinimumSize(760, 860);
     resize(780, 920);
 

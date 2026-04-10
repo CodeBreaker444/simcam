@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(IPCameraSimulator VERSION 1.0.0 LANGUAGES CXX)
+project(SimCam VERSION 1.0.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -37,12 +37,12 @@ if(WIN32 AND EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/appicon.ico")
 endif()
 
 if(WIN32)
-    add_executable(IPCameraSimulator WIN32 ${SOURCES} ${HEADERS})
+    add_executable(SimCam WIN32 ${SOURCES} ${HEADERS})
 else()
-    add_executable(IPCameraSimulator ${SOURCES} ${HEADERS})
+    add_executable(SimCam ${SOURCES} ${HEADERS})
 endif()
 
-target_link_libraries(IPCameraSimulator
+target_link_libraries(SimCam
     Qt6::Core
     Qt6::Widgets
     Qt6::Network
@@ -50,14 +50,14 @@ target_link_libraries(IPCameraSimulator
 )
 
 if(WIN32)
-    target_link_libraries(IPCameraSimulator ws2_32)
+    target_link_libraries(SimCam ws2_32)
 endif()
 
-target_compile_definitions(IPCameraSimulator PRIVATE
+target_compile_definitions(SimCam PRIVATE
     QT_NO_DEPRECATED_WARNINGS
     NOMINMAX
 )
 
-install(TARGETS IPCameraSimulator
+install(TARGETS SimCam
     RUNTIME DESTINATION bin
 )
