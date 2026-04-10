@@ -1,0 +1,4 @@
+// Windows resource file – gives the compiled EXE its icon in Explorer/taskbar.
+// Requires appicon.ico alongside this file (convert appicon.svg → ICO with any
+// online tool, e.g. https://convertio.co/svg-ico/).
+IDI_ICON1 ICON "appicon.ico"

@@ -1,0 +1,10 @@
+.claude
+.qtcreater
+*.exe
+*.dll
+build/
+dist/
+*.log
+*.tmp
+*.zip
+*.tar.gz

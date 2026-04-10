@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Rounded square background -->
+  <rect width="64" height="64" rx="13" fill="#1565c0"/>
+
+  <!-- Mount arm (top) -->
+  <rect x="27" y="7" width="7" height="16" rx="2.5" fill="#90a4ae"/>
+  <rect x="22" y="5" width="17" height="6" rx="3" fill="#b0bec5"/>
+
+  <!-- Camera housing body -->
+  <rect x="9" y="21" width="38" height="26" rx="6" fill="#e3f2fd"/>
+
+  <!-- Rear fin / IR array background -->
+  <rect x="44" y="27" width="8" height="14" rx="3" fill="#cfd8dc"/>
+
+  <!-- Lens housing ring (outer dark) -->
+  <circle cx="28" cy="34" r="11" fill="#0d47a1"/>
+  <!-- Lens glass (mid blue) -->
+  <circle cx="28" cy="34" r="8"  fill="#1e88e5"/>
+  <!-- Lens inner -->
+  <circle cx="28" cy="34" r="5"  fill="#90caf9"/>
+  <!-- Pupil -->
+  <circle cx="28" cy="34" r="2.5" fill="#0a1929"/>
+  <!-- Catchlight -->
+  <circle cx="25.5" cy="31.5" r="1.2" fill="white" opacity="0.7"/>
+
+  <!-- Status LED (green = live) -->
+  <circle cx="42" cy="26" r="3.2" fill="#43a047"/>
+  <circle cx="42" cy="26" r="1.5" fill="#a5d6a7" opacity="0.8"/>
+</svg>
